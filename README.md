@@ -10,7 +10,7 @@ $P = \frac{a^2 \cdot \sqrt{3}}{3}$
 
 ## Решење 
 
-''' 
+``` 
 using System;
 
 namespace PovrsinaTrougla
@@ -26,4 +26,36 @@ namespace PovrsinaTrougla
         }
     }
 }
-'''
+```
+### Тест примери 
+
+Тест пример 1:
+
+``` text
+Unesi visinu jednakostranicnog trougla a:
+2
+Povrsina trougla je 2.309401076758503
+
+C:\Users\Che\Desktop\Repos\ConsoleApp12\bin\Debug\PovrsinaTrougla.exe (process 14220) exited with code 0 (0x0).
+Press any key to close this window . . .
+```
+
+ Tест пример 2: 
+
+ ```
+Unesi visinu jednakostranicnog trougla a:
+3
+Povrsina trougla je 5.196152422706632
+
+C:\Users\velim\Desktop\Repos\ConsoleApp12\bin\Debug\PovrsinaTrougla.exe (process 15110) exited with code 0 (0x0).
+Press any key to close this window . . .
+
+```
+
+### Објекти
+
+| Редни број | Променљива | Тип | Опис |
+| ---------- | ---------- | --- | ---- |
+| 1.         | `a`        | `double` | Висина троугла |
+| 2.         | `P`        | `double` | Површина троугла |
+
