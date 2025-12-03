@@ -10,7 +10,7 @@ $P = \frac{a^2 \cdot \sqrt{3}}{3}$
 
 ## Решење 
 
-``` 
+``` cs
 using System;
 
 namespace PovrsinaTrougla
